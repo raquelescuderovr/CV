@@ -26,19 +26,17 @@ jobs:
         with:
           node-version: 24
           cache: pnpm
-          cache-dependency-path: apps/cv-web/pnpm-lock.yaml
+          cache-dependency-path: pnpm-lock.yaml
       - name: Install dependencies
-        working-directory: apps/cv-web
         run: pnpm install --frozen-lockfile
       - name: Build website
-        working-directory: apps/cv-web
         env:
           SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
           BASE_PATH: /${{ github.event.repository.name }}
         run: pnpm build
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: apps/cv-web/dist
+          path: dist
   deploy:
     environment:
       name: github-pages
