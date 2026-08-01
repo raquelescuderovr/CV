@@ -168,7 +168,7 @@ export const content: Record<Language, PageContent> = {
     contact: {
       label: '06 · Contacto',
       heading: 'Hablemos.',
-      body: 'Para oportunidades profesionales, colaboraciones o conversaciones sobre Derecho y tecnología, puedes escribirme directamente.',
+      body: 'Para oportunidades profesionales, colaboraciones o conversaciones sobre Derecho y tecnología, puedes encontrarme en LinkedIn.',
       linkedinLabel: 'Conectar en LinkedIn',
     },
     footer: 'Portfolio profesional',
@@ -238,7 +238,7 @@ export const content: Record<Language, PageContent> = {
     contact: {
       label: '06 · Contact',
       heading: 'Let’s talk.',
-      body: 'For professional opportunities, collaborations or conversations about law and technology, feel free to get in touch directly.',
+      body: 'For professional opportunities, collaborations or conversations about law and technology, you can find me on LinkedIn.',
       linkedinLabel: 'Connect on LinkedIn',
     },
     footer: 'Professional portfolio',
@@ -308,7 +308,7 @@ export const content: Record<Language, PageContent> = {
     contact: {
       label: '06 · Contacto',
       heading: 'Falemos.',
-      body: 'Para oportunidades profesionais, colaboracións ou conversas sobre Dereito e tecnoloxía, podes escribir directamente.',
+      body: 'Para oportunidades profesionais, colaboracións ou conversas sobre Dereito e tecnoloxía, podes atoparme en LinkedIn.',
       linkedinLabel: 'Conectar en LinkedIn',
     },
     footer: 'Portfolio profesional',
