@@ -352,103 +352,103 @@
       "id": "COM-0001",
       "name": "Inglés",
       "category": "IDIOMAS",
-      "description": "Niveles A2, B1 y B2 acreditados documentalmente."
+      "description": "Niveles A2, B1 y B2."
     },
     {
       "id": "COM-0002",
       "name": "Gallego",
       "category": "IDIOMAS",
-      "description": "Acreditación CELGA 4 indicada en la fuente curricular."
+      "description": "CELGA 4 indicada en la fuente curricular."
     },
     {
       "id": "COM-0003",
       "name": "Trabajo en equipo y liderazgo",
       "category": "COMUNICACION",
-      "description": "Aptitud declarada en la fuente curricular."
+      "description": "Aptitud en la fuente curricular."
     },
     {
       "id": "COM-0004",
       "name": "Resolución de problemas",
       "category": "GESTION",
-      "description": "Aptitud declarada en la fuente curricular."
+      "description": "Aptitud en la fuente curricular."
     },
     {
       "id": "COM-0005",
       "name": "Adaptabilidad intercultural",
       "category": "COMUNICACION",
-      "description": "Aptitud declarada en la fuente curricular."
+      "description": "Aptitud en la fuente curricular."
     },
     {
       "id": "COM-0006",
       "name": "Creatividad e innovación",
       "category": "GESTION",
-      "description": "Aptitud declarada en la fuente curricular."
+      "description": "Aptitud en la fuente curricular."
     },
     {
       "id": "COM-0007",
       "name": "Análisis jurídico y pensamiento crítico",
       "category": "INVESTIGACION",
-      "description": "Capacidad declarada y vinculada al TFG sobre eutanasia y prisión provisional; pendiente de acreditación académica."
+      "description": "Vinculada al TFG sobre eutanasia y prisión provisional."
     },
     {
       "id": "COM-0008",
       "name": "Mediación y representación estudiantil",
       "category": "COMUNICACION",
-      "description": "Competencia declarada a partir de la experiencia como delegada de clase; pendiente de precisar periodos y centro."
+      "description": "Competencia a partir de la experiencia como delegada de clase."
     },
     {
       "id": "COM-0009",
       "name": "Organización de eventos",
       "category": "GESTION",
-      "description": "Planificación y coordinación de ceremonia de graduación declaradas; pendiente de evidencias."
+      "description": "Planificación y coordinación de ceremonia de graduación."
     },
     {
       "id": "COM-0010",
       "name": "Canva",
       "category": "DIGITAL",
-      "description": "Uso declarado para diseño de materiales visuales para eventos; pendiente de portfolio o muestras."
+      "description": "Uso para diseño de materiales visuales para eventos."
     },
     {
       "id": "COM-0011",
       "name": "Oratoria y argumentación jurídica",
       "category": "COMUNICACION",
-      "description": "Formación en debate y oratoria acreditada por la asignatura Debate de Actualidade, calificación 10 (Sobresaliente), en 1.º de Bachillerato."
+      "description": "Formación en debate y oratoria en la asignatura Debate de Actualidade, calificación 10 (Sobresaliente), en 1.º de Bachillerato."
     },
     {
       "id": "COM-0012",
       "name": "IA generativa aplicada al ámbito jurídico",
       "category": "DIGITAL",
-      "description": "Manejo funcional declarado de ChatGPT, Gemini y Codex para investigación, síntesis y análisis de textos legales; pendiente de portfolio o formación acreditada."
+      "description": "Manejo funcional de ChatGPT, Gemini y Codex para investigación, síntesis y análisis de textos legales."
     },
     {
       "id": "COM-0013",
       "name": "Búsqueda e investigación jurídica",
       "category": "INVESTIGACION",
-      "description": "Manejo declarado de bases normativas y jurisprudenciales, incluidos CENDOJ y Aranzadi/Tirant Online; pendiente de acreditación o muestras de trabajo."
+      "description": "Manejo de bases normativas y jurisprudenciales, incluidos CENDOJ y Aranzadi/Tirant Online."
     },
     {
       "id": "COM-0014",
       "name": "Herramientas colaborativas y de productividad",
       "category": "DIGITAL",
-      "description": "Uso declarado de Microsoft Teams, OneDrive y Google Workspace; pendiente de acreditación complementaria si se requiere."
+      "description": "Uso de Microsoft Teams, OneDrive y Google Workspace."
     },
     {
       "id": "COM-0015",
       "name": "Disciplina, constancia y precisión",
       "category": "GESTION",
-      "description": "Competencia declarada a partir de formación musical y práctica de danza; la persona indica que no conserva diplomas ni certificados."
+      "description": "Competencia a partir de formación musical y práctica de danza."
     },
     {
       "id": "COM-0016",
       "name": "Redacción argumentativa y disertación",
       "category": "COMUNICACION",
-      "description": "Competencia declarada a partir de la participación en una olimpiada filosófica de disertación; pendiente de evidencia del evento."
+      "description": "Competencia a partir de la participación en una olimpiada filosófica de disertación."
     },
     {
       "id": "COM-0017",
       "name": "Mediación escolar",
       "category": "COMUNICACION",
-      "description": "Competencia acreditada mediante diploma por la labor como mediadora del Equipo de Convivencia del IES Plurilingüe Rafael Dieste."
+      "description": "Diploma por la labor como mediadora del Equipo de Convivencia del IES Plurilingüe Rafael Dieste."
     }
   ]
 }
