@@ -1,3 +1,9 @@
 ---
-return Astro.redirect(`${import.meta.env.BASE_URL}${import.meta.env.BASE_URL.endsWith('/') ? '' : '/'}es/`);
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Portfolio from '../components/Portfolio.astro';
+import { content } from '../data/content';
 ---
+
+<BaseLayout content={content.es}>
+  <Portfolio content={content.es} />
+</BaseLayout>
