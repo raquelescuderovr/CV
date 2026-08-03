@@ -102,7 +102,7 @@ if (generated.competencies.length) {
 }
 
 const generatedMerit = (id: string) => generated.merits.find((merit) => merit.id === id);
-const generatedPath = ['MER-0004', 'MER-0018', 'MER-0001', 'MER-0002']
+const generatedPath = ['MER-0026', 'MER-0004', 'MER-0018', 'MER-0001', 'MER-0002']
   .map(generatedMerit)
   .filter((merit): merit is NonNullable<typeof merit> => Boolean(merit))
   .map((merit) => ({
