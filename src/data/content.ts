@@ -58,7 +58,7 @@ const shared = {
 };
 const generatedRole = generated.person.role.split('|')[0]?.trim() || 'Graduada en Derecho';
 const portfolioIntro = 'Graduada en Derecho y actualmente cursando el Máster de Abogacía y Procura. Me interesa cómo la tecnología transforma el Derecho civil, la protección de los derechos y la investigación jurídica.';
-const profileIntro = 'Me interesa el Derecho cuando dialoga con los cambios de la sociedad. Mi perfil combina análisis jurídico, investigación y comunicación, con especial atención al impacto de la tecnología en el ámbito civil. Actualmente curso el Máster de Abogacía y Procura y sigo construyendo una mirada orientada al Derecho digital y la protección de los derechos.';
+const profileIntroFallback = 'Perfil jurídico orientado al análisis, la investigación y los retos que plantea la tecnología en el ámbito civil.';
 
 const generatedGroupTitles: Record<string, string> = {
   TITULACION: 'Formación académica',
@@ -144,7 +144,7 @@ export const content: Record<Language, PageContent> = {
     profile: {
       label: '01 · Perfil',
       heading: 'Derecho, investigación y cultura digital.',
-      body: profileIntro,
+      body: generated.person.summary || profileIntroFallback,
     },
     path: {
       label: '02 · Trayectoria',
