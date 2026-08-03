@@ -62,9 +62,9 @@ const profileIntroFallback = 'Perfil jurídico orientado al análisis, la invest
 
 const generatedGroupTitles: Record<string, string> = {
   TITULACION: 'Formación académica',
-  IDIOMA: 'Idiomas, cursos y acreditaciones',
-  CURSO: 'Idiomas, cursos y acreditaciones',
-  ACREDITACION: 'Idiomas, cursos y acreditaciones',
+  IDIOMA: 'Idiomas y cursos',
+  CURSO: 'Idiomas y cursos',
+  ACREDITACION: 'Idiomas y cursos',
   PUBLICACION: 'Publicaciones y proyectos',
   PROYECTO: 'Publicaciones y proyectos',
   EXPERIENCIA: 'Experiencia y recorrido personal',
@@ -165,7 +165,7 @@ export const content: Record<Language, PageContent> = {
       capabilities: 'Competencias',
       capabilityItems: ['Análisis jurídico y pensamiento crítico', 'Oratoria y argumentación jurídica', 'Trabajo en equipo y liderazgo', 'Resolución de problemas', 'Adaptabilidad intercultural', 'Creatividad e innovación', 'Mediación y representación estudiantil', 'Organización de eventos', 'Canva', 'IA generativa aplicada al ámbito jurídico', 'Búsqueda e investigación jurídica', 'Herramientas colaborativas y de productividad', 'Disciplina, constancia y precisión', 'Redacción argumentativa y disertación', 'Mediación escolar'],
     },
-    completeCv: { label: '05 · Currículum completo', heading: 'Currículum completo.', note: 'Abre cada bloque para consultar el detalle y su estado de acreditación.', groups: generatedCompleteCv },
+    completeCv: { label: '05 · Currículum completo', heading: 'Currículum completo.', note: 'Abre cada bloque para conocer el detalle de cada etapa, formación y proyecto.', groups: generatedCompleteCv },
     contact: {
       label: '06 · Contacto',
       heading: 'Hablemos.',
@@ -235,7 +235,7 @@ export const content: Record<Language, PageContent> = {
       capabilities: 'Capabilities',
       capabilityItems: ['Legal analysis and critical thinking', 'Legal public speaking and argumentation', 'Teamwork and leadership', 'Problem solving', 'Intercultural adaptability', 'Creativity and innovation', 'Student mediation and representation', 'Event organisation', 'Canva', 'Generative AI applied to legal work', 'Legal research', 'Collaboration and productivity tools', 'Discipline, consistency and precision', 'Argumentative writing and essay writing', 'School mediation'],
     },
-    completeCv: { label: '05 · Full CV', heading: 'Full CV.', note: 'Open each section to view the detailed entry and its evidence status.', groups: generatedCompleteCv },
+    completeCv: { label: '05 · Full CV', heading: 'Full CV.', note: 'Open each section to explore the detail of each stage, course and project.', groups: generatedCompleteCv },
     contact: {
       label: '06 · Contact',
       heading: 'Let’s talk.',
@@ -305,7 +305,7 @@ export const content: Record<Language, PageContent> = {
       capabilities: 'Competencias',
       capabilityItems: ['Análise xurídica e pensamento crítico', 'Oratoria e argumentación xurídica', 'Traballo en equipo e liderado', 'Resolución de problemas', 'Adaptabilidade intercultural', 'Creatividade e innovación', 'Mediación e representación estudantil', 'Organización de eventos', 'Canva', 'IA xerativa aplicada ao ámbito xurídico', 'Busca e investigación xurídica', 'Ferramentas colaborativas e de produtividade', 'Disciplina, constancia e precisión', 'Redacción argumentativa e disertación', 'Mediación escolar'],
     },
-    completeCv: { label: '05 · Currículo completo', heading: 'Currículo completo.', note: 'Abre cada bloque para consultar o detalle e o seu estado de acreditación.', groups: generatedCompleteCv },
+    completeCv: { label: '05 · Currículo completo', heading: 'Currículo completo.', note: 'Abre cada bloque para coñecer o detalle de cada etapa, formación e proxecto.', groups: generatedCompleteCv },
     contact: {
       label: '06 · Contacto',
       heading: 'Falemos.',

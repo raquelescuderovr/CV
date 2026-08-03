@@ -146,7 +146,6 @@ const languageOptions = [
                   <h4>{item.title}</h4>
                   <p>{item.detail}</p>
                 </div>
-                {item.status && <span class:list={['status', item.status === 'Acreditado' && 'status-verified', item.status === 'Declarado' && 'status-declared', item.status === 'Parcialmente acreditado' && 'status-partial']}>{item.status}</span>}
               </article>
             ))}
           </div>
