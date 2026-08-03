@@ -58,6 +58,7 @@ const shared = {
 };
 const generatedRole = generated.person.role.split('|')[0]?.trim() || 'Graduada en Derecho';
 const generatedSummary = generated.person.summary || 'Perfil jurídico con interés en investigación y cultura digital.';
+const portfolioIntro = 'Graduada en Derecho y actualmente cursando el Máster de Abogacía y Procura. Me interesa cómo la tecnología transforma el Derecho civil, la protección de los derechos y la investigación jurídica.';
 
 const generatedGroupTitles: Record<string, string> = {
   TITULACION: 'Formación académica',
@@ -132,7 +133,7 @@ export const content: Record<Language, PageContent> = {
     name: shared.name,
     role: generatedRole,
     eyebrow: 'Portfolio jurídico · A Coruña',
-    intro: generatedSummary,
+    intro: portfolioIntro,
     heroDetail: 'A Coruña · Derecho civil y cultura digital · ES / GL / EN',
     heroCta: 'Explorar trayectoria',
     cvLabel: 'Descargar CV · ES',
