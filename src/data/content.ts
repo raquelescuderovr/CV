@@ -57,8 +57,8 @@ const shared = {
   linkedinUrl: generated.person.linkedin_url || 'https://www.linkedin.com/in/raquel-escudero-valcárcel-ríos-046a00217/',
 };
 const generatedRole = generated.person.role.split('|')[0]?.trim() || 'Graduada en Derecho';
-const generatedSummary = generated.person.summary || 'Perfil jurídico con interés en investigación y cultura digital.';
 const portfolioIntro = 'Graduada en Derecho y actualmente cursando el Máster de Abogacía y Procura. Me interesa cómo la tecnología transforma el Derecho civil, la protección de los derechos y la investigación jurídica.';
+const profileIntro = 'Me interesa el Derecho cuando dialoga con los cambios de la sociedad. Mi perfil combina análisis jurídico, investigación y comunicación, con especial atención al impacto de la tecnología en el ámbito civil. Actualmente curso el Máster de Abogacía y Procura y sigo construyendo una mirada orientada al Derecho digital y la protección de los derechos.';
 
 const generatedGroupTitles: Record<string, string> = {
   TITULACION: 'Formación académica',
@@ -144,7 +144,7 @@ export const content: Record<Language, PageContent> = {
     profile: {
       label: '01 · Perfil',
       heading: 'Derecho, investigación y cultura digital.',
-      body: generatedSummary,
+      body: profileIntro,
     },
     path: {
       label: '02 · Trayectoria',
